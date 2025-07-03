@@ -20,7 +20,7 @@ const User = require('./model/user');
 app.use(express.json())
 app.use(cors(
     {
-        origin:["https://book-issue.vercel.app","http://localhost:3000"],
+        origin:["https://book-issue.vercel.app","http://localhost:3000","https://book-issue-nine.vercel.app"],
         methods:["POST","GET","PUT","DELETE","PATCH"]
     }
 ))
