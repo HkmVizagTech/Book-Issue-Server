@@ -47,7 +47,7 @@ app.post('/book', async (req, res) => {
   try {
     const { userId, books } = req.body;
     const user= await User.findById(userId);
-    const to = "jamimani19@gmail.com";
+    const to = "abrd@hkmvizag.org";
     if (!userId || !Array.isArray(books) || books.length === 0) {
       return res.status(400).json({ message: 'Invalid request' });
     }
